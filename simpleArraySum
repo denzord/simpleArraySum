@@ -1,0 +1,9 @@
+function simpleArraySum(ar) {
+    let len = ar.length;
+    let sum = 0;
+    for (let i=0; i < len; i++) {
+        sum += ar[i];
+    console.log (sum);
+    }
+    return sum;
+}
